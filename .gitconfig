@@ -1,0 +1,21 @@
+[user]
+    name = danielblake638
+    email = danielblake638@users.noreply.github.com
+
+[core]
+    editor = vim
+    autocrlf = input
+
+[color]
+    ui = auto
+
+[alias]
+    visual = !gitk
+    unstage = reset HEAD --
+    ci = commit
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    last = log -1 HEAD
+    co = checkout
+
+[init]
+    defaultBranch = main
